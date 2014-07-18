@@ -543,5 +543,5 @@ int RBColorCheck_Aux(struct RBNode* _Node) {
 int RBColorCheck(struct RBNode* _Node) {
 	if(_Node == NULL)
 		return 1;
-	return RBColorCheck(_Node->Left) == RBColorCheck(_Node->Right));
+	return RBColorCheck(_Node->Left) == RBColorCheck(_Node->Right);
 }
